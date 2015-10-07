@@ -1,2 +1,2 @@
-# Web-OS-config
+# Web-OS-config [![Build Status](https://travis-ci.org/Gum-Joe/Web-OS-container.svg)](https://travis-ci.org/Gum-Joe/Web-OS-container) [![Code Climate](https://codeclimate.com/github/Gum-Joe/Web-OS-config/badges/gpa.svg)](https://codeclimate.com/github/Gum-Joe/Web-OS-config) [![Coverage Status](https://coveralls.io/repos/Gum-Joe/Web-OS-config/badge.svg?branch=master&service=github)](https://coveralls.io/github/Gum-Joe/Web-OS-config?branch=master)
 Module for getting the config for Web-OS

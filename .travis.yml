@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "stable"
+  - "0.12"
+  - "0.11"
+  - "0.10"
+  - "iojs"
+
+addons:
+  code_climate:
+    repo_token:
+      secure: "LpK5JSCJR4Wbbnws4P9idubX8iRxX8DnEPkOCTWCOeavwf0WpUj2v8J5TQp8LWeXPa0J0onADog4nIOQ+vfgMcL+K9malucwJ2XorZ18e/oLDqUjGLK2R/KPK3F00WcMVui4jjVcJc6Tn3M4UerOHg4Lc+cZAfjusaACe3qqa+HI52qEd5ru6jriNq65lgQsSxE0uYSOEadQczMACMIjfwHco4u6BlLH4LknIHgoVLQTqRQZDZlzRz8LCkVkXjxrxlew24AG66vvcoP6sa4SwCLXCYohwrwMROkyfXJLkZv9Z/jVRbw6h1nqy18rcSvskIg+gJ4iQaR0+e7jW37Dq48PRaHruJszNVivNoXwVKHyM0yzY2AZurgu7n6BGCI30xK/2VYefA6wP7B0NbW7er43a3iJpNCHJmkuRwn0GWSjTGQuDnp/EGyhrTFHam8osNBun7pBOdKh23616BunJzb47+v2PDMPqs52KTiEL37750tGs196zpgPKMy7ZOCltSEylPOk1mgSuaWQDEAWSW7xya1TwfcCt9hY9jGvbS2GhtwZ8NrC8SknOLnjMNe9ALm8PJP4h4M5Ukhk0EKVQhCMNXhhx5aLPIGmRMQd1DKcHYIP/+ntYrO9p9GIHfEyPMxtpEHdTDrmbhx7AY9+Dqpw3cadU2oK6s9L5eFx28Y="
+
+before_install: npm install -g mocha istanbul codeclimate-test-reporter
+install: npm install
+script: make ci
+after_script:
+  - codeclimate-test-reporter < coverage/lcov.info
