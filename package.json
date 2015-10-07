@@ -1,0 +1,29 @@
+{
+  "name": "web-os-config",
+  "version": "1.0.0",
+  "description": "Module for getting the config for Web-OS",
+  "main": "app.js",
+  "dependencies": {
+    "yamljs": "^0.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gum-Joe/Web-OS-config.git"
+  },
+  "keywords": [
+    "web",
+    "os",
+    "yaml",
+    "configure"
+  ],
+  "author": "Gum-Joe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gum-Joe/Web-OS-config/issues"
+  },
+  "homepage": "https://github.com/Gum-Joe/Web-OS-config#readme"
+}
