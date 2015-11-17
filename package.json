@@ -1,7 +1,7 @@
 {
-  "name": "web-os-config",
+  "name": "boss-config",
   "version": "1.0.0",
-  "description": "Module for getting the config for Web-OS",
+  "description": "Module for getting the config for boss",
   "main": "app.js",
   "dependencies": {
     "yamljs": "^0.2.4"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gum-Joe/Web-OS-config.git"
+    "url": "git+https://github.com/Gum-Joe/boss-config.git"
   },
   "keywords": [
     "web",
@@ -25,7 +25,7 @@
   "author": "Gum-Joe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gum-Joe/Web-OS-config/issues"
+    "url": "https://github.com/Gum-Joe/boss-config/issues"
   },
-  "homepage": "https://github.com/Gum-Joe/Web-OS-config#readme"
+  "homepage": "https://github.com/Gum-Joe/boss-config#readme"
 }
