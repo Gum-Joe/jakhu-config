@@ -1,2 +1,2 @@
-# Boss-config [![Build Status](https://travis-ci.org/Gum-Joe/boss-container.svg)](https://travis-ci.org/Gum-Joe/boss-container) [![Code Climate](https://codeclimate.com/github/Gum-Joe/boss-config/badges/gpa.svg)](https://codeclimate.com/github/Gum-Joe/boss-config) [![Coverage Status](https://coveralls.io/repos/Gum-Joe/boss-config/badge.svg?branch=master&service=github)](https://coveralls.io/github/Gum-Joe/boss-config?branch=master)
-Module for getting the config for Boss
+# Jakhu-config [![Build Status](https://travis-ci.org/Gum-Joe/jakhu-container.svg)](https://travis-ci.org/Gum-Joe/jakhu-container) [![Code Climate](https://codeclimate.com/github/Gum-Joe/jakhu-config/badges/gpa.svg)](https://codeclimate.com/github/Gum-Joe/jakhu-config) [![Coverage Status](https://coveralls.io/repos/Gum-Joe/jakhu-config/badge.svg?branch=master&service=github)](https://coveralls.io/github/Gum-Joe/jakhu-config?branch=master)
+Module for getting the config for Jakhu

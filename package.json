@@ -1,7 +1,7 @@
 {
-  "name": "boss-config",
+  "name": "jakhu-config",
   "version": "1.0.0",
-  "description": "Module for getting the config for boss",
+  "description": "Module for getting the config for jakhu",
   "main": "app.js",
   "dependencies": {
     "yamljs": "^0.2.4"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gum-Joe/boss-config.git"
+    "url": "git+https://github.com/Gum-Joe/jakhu-config.git"
   },
   "keywords": [
     "web",
@@ -25,7 +25,7 @@
   "author": "Gum-Joe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gum-Joe/boss-config/issues"
+    "url": "https://github.com/Gum-Joe/jakhu-config/issues"
   },
-  "homepage": "https://github.com/Gum-Joe/boss-config#readme"
+  "homepage": "https://github.com/Gum-Joe/jakhu-config#readme"
 }
